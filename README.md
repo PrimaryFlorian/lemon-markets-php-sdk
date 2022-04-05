@@ -42,7 +42,7 @@ When using the paper- status, make sure you include the hyphen.
 <?php
 require_once 'vendor/autoload.php';
 use LemonMarketsSDK\LemonMarkets;
-$LemonMarkets = new LemonMarkets('API-KEY', 'STATUS')
+$LemonMarkets = new LemonMarkets('API-KEY', 'STATUS');
 $account = $LemonMarkets->trading->getAccount();
 print_r("<pre>");
 print_r($account);
