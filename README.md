@@ -48,3 +48,7 @@ print_r("<pre>");
 print_r($account);
 print_r("</pre>");
 ```
+
+## License
+
+Licensed under MIT.

@@ -14,5 +14,6 @@
         "psr-4": {
             "LemonMarketsSDK\\": "src/"
         }
-    }
+    },
+    "license": "MIT"
 }
