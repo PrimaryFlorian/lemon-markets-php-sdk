@@ -10,7 +10,7 @@ The SDK was only tested in paper mode and is used live at your own risk. Any lia
 You can install the SDK with the following command.
 
 ```
-composer ...
+composer require primaryflorian/lemon-markets-php-sdk:dev-main
 ```
 
 ## Usage
@@ -23,7 +23,7 @@ Use the autoloader to load all classes.
 
 ```php
 use LemonMarketsSDK\LemonMarkets;
-$LemonMarkets = new LemonMarkets('API-KEY', 'STATUS')
+$LemonMarkets = new LemonMarkets('API-KEY', 'STATUS');
 $LemonMarkets->data->getInstruments();
 $LemonMarkets->trading->getAccount();
 ```
