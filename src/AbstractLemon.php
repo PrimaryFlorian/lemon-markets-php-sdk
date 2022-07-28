@@ -17,7 +17,7 @@ abstract class AbstractLemon
             'base_uri' => 'https://'.$this->apiResource.$this->apiStatus.'.lemon.markets',
             'timeout' => 2.0,
             'headers' => [
-              'Authorization' => 'Bearer: '.$this->apiKey,
+              'Authorization' => 'Bearer '.$this->apiKey,
             ],
         ]);
 
